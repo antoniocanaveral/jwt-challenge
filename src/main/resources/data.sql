@@ -1,0 +1,64 @@
+DROP TABLE IF EXISTS students;
+
+CREATE TABLE students (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(255)
+);
+
+INSERT INTO students(name) VALUES ('Josue');
+INSERT INTO students(name) VALUES ('Alejandro');
+INSERT INTO students(name) VALUES ('Edwing');
+INSERT INTO students(name) VALUES ('Wilson');
+INSERT INTO students(name) VALUES ('Mary');
+INSERT INTO students(name) VALUES ('Alex');
+INSERT INTO students(name) VALUES ('María');
+INSERT INTO students(name) VALUES ('Amy');
+INSERT INTO students(name) VALUES ('Mateo');
+INSERT INTO students(name) VALUES ('Leonardo');
+INSERT INTO students(name) VALUES ('Paulo');
+INSERT INTO students(name) VALUES ('Ariel');
+INSERT INTO students(name) VALUES ('Oscar');
+INSERT INTO students(name) VALUES ('Hayland');
+INSERT INTO students(name) VALUES ('Daniel');
+INSERT INTO students(name) VALUES ('Jorge');
+INSERT INTO students(name) VALUES ('José');
+INSERT INTO students(name) VALUES ('Liseth');
+INSERT INTO students(name) VALUES ('Camila');
+INSERT INTO students(name) VALUES ('Doménica');
+INSERT INTO students(name) VALUES ('Gorky');
+INSERT INTO students(name) VALUES ('Alexander');
+INSERT INTO students(name) VALUES ('Martin');
+INSERT INTO students(name) VALUES ('Jefferson');
+INSERT INTO students(name) VALUES ('Carlos');
+INSERT INTO students(name) VALUES ('Amir');
+INSERT INTO students(name) VALUES ('mySuperSecretKeyForJWTs1234567890!');
+INSERT INTO students(name) VALUES ('Anderson');
+INSERT INTO students(name) VALUES ('Juan');
+INSERT INTO students(name) VALUES ('Christian');
+INSERT INTO students(name) VALUES ('David');
+INSERT INTO students(name) VALUES ('Mauro');
+INSERT INTO students(name) VALUES ('Willy');
+INSERT INTO students(name) VALUES ('Ricardo');
+INSERT INTO students(name) VALUES ('Didier');
+INSERT INTO students(name) VALUES ('Anthony');
+INSERT INTO students(name) VALUES ('Luis');
+INSERT INTO students(name) VALUES ('Anahí');
+INSERT INTO students(name) VALUES ('Javier');
+INSERT INTO students(name) VALUES ('Jose');
+INSERT INTO students(name) VALUES ('Xavier');
+INSERT INTO students(name) VALUES ('Tito');
+INSERT INTO students(name) VALUES ('Isaac');
+INSERT INTO students(name) VALUES ('Julián');
+INSERT INTO students(name) VALUES ('Esteban');
+INSERT INTO students(name) VALUES ('Dylan');
+INSERT INTO students(name) VALUES ('Cristian');
+INSERT INTO students(name) VALUES ('Kristiany');
+INSERT INTO students(name) VALUES ('Tony');
+INSERT INTO students(name) VALUES ('Andres');
+INSERT INTO students(name) VALUES ('Diego');
+INSERT INTO students(name) VALUES ('André');
+INSERT INTO students(name) VALUES ('Fernando');
+INSERT INTO students(name) VALUES ('Wanderley');
+INSERT INTO students(name) VALUES ('Jair');
+INSERT INTO students(name) VALUES ('Tomas');
+INSERT INTO students(name) VALUES ('Andrei');
