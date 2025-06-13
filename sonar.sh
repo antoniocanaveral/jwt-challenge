@@ -1,6 +1,6 @@
 LOCAL_SONAR_PROJECT_KEY='antoniocanaveral_jwt-challenge'
 LOCAL_SONAR_ORGANIZATION='antoniocanaveral'
-LOCAL_SONAR_LOGIN='85aeaf8d98c60f268986d88d3ad7a3ca7655b5ed'
+LOCAL_SONAR_LOGIN='$SONAR_TOKEN'
 LOCAL_BRANCH='master'
 LOCAL_SFDC_USER='antoniocanaveral@gmail.com'
 
