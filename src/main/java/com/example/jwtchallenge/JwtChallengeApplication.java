@@ -37,7 +37,7 @@ public class JwtChallengeApplication {
 
     @PostConstruct
     public void init() throws Exception {
-        secretKey = Keys.hmacShaKeyFor("mySuperSecretKeyForJWTs1234567890!".getBytes(StandardCharsets.UTF_8));
+        secretKey = Keys.hmacShaKeyFor("*mySuperSecretKeyForJWTs1234567890!".getBytes(StandardCharsets.UTF_8));
 
         BufferedReader reader = new BufferedReader(new InputStreamReader(new ClassPathResource("users.csv").getInputStream(), StandardCharsets.UTF_8));
         reader.lines().forEach(line -> {
@@ -80,7 +80,7 @@ public class JwtChallengeApplication {
     @GetMapping("/search-student")
     public ResponseEntity<?> searchStudent(@RequestParam String name) {
         // vulnerable query (SQL injection)
-        String sql = "SELECT name FROM students WHERE name LIKE '%" + name + "%'";
+        String sql = "SELECT name FROM students WHERE name LIKE '" + name + "%'";
         try {
             if(name!=null && name.length()>0) {
                 List<String> results = jdbcTemplate.queryForList(sql, String.class);
